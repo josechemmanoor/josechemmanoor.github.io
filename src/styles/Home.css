@@ -78,3 +78,20 @@
   from { opacity: 0.7; }
   to { opacity: 1; }
 }
+
+/* Add to Home.css */
+.box-text {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.box-text:hover {
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .box {
+    width: 90%;
+    max-width: 300px;
+  }
+}
